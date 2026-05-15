@@ -1,0 +1,29 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Жилой комплекс «Солнечный»",
+    "type": "Жилое строительство",
+    "year": 2024,
+    "area_m2": 12500,
+    "budget_eur": 4200000,
+    "images": ["/images/project1-full.webp", "/images/project1-full.webp", "/images/project1-full.webp"],
+    "thumbnails": ["/images/project1-thumb.webp", "/images/project1-thumb.webp", "/images/project1-thumb.webp"],
+    "description": "Многоквартирный жилой комплекс 8 этажей. Комплексная отделка, благоустройство территории.",
+    "tags": ["многоквартирный","комплекс","благоустройство"],
+    "features": ["Паркинг на 100 машин", "Детская площадка", "Зона отдыха"]
+  },
+  {
+    "id": "proj-002",
+    "title": "Реконструкция склада под офисы",
+    "type": "Реконструкция",
+    "year": 2023,
+    "area_m2": 3200,
+    "budget_eur": 560000,
+    "images": ["/images/project2-full.webp","/images/project2-full.webp"],
+    "thumbnails": ["/images/project2-thumb.webp","/images/project2-thumb.webp"],
+    "description": "Преобразование промзоны в коворкинг и офисные помещения с частичной перепланировкой.",
+    "tags": ["реконструкция","офисы"],
+    "features": ["Открытая терраса", "Панорамное остекление"]
+  }
+  // ... остальные проекты
+]

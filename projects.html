@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши проекты - СтройКом</title>
+    <meta name="description" content="Портфолио строительной компании: жилые комплексы, коммерческие объекты, реконструкция, ремонт. Реализованные проекты с фото и описанием.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header class="header">...</header> <!-- полная шапка как в index -->
+
+    <main>
+        <section class="page-header section">
+            <div class="container">
+                <h1>Наши проекты</h1>
+                <p>Реализованные объекты, которыми мы гордимся</p>
+            </div>
+        </section>
+
+        <!-- Фильтры -->
+        <div class="container">
+            <div class="filters">
+                <a href="#all" class="filter-link">Все</a>
+                <a href="#residential" class="filter-link">Жилые</a>
+                <a href="#commercial" class="filter-link">Коммерческие</a>
+                <a href="#reconstruction" class="filter-link">Реконструкция</a>
+                <a href="#repair" class="filter-link">Ремонт</a>
+            </div>
+        </div>
+
+        <!-- Якоря фильтрации (скрыты) -->
+        <div id="all" class="filter-target"></div>
+        <div id="residential" class="filter-target"></div>
+        <div id="commercial" class="filter-target"></div>
+        <div id="reconstruction" class="filter-target"></div>
+        <div id="repair" class="filter-target"></div>
+
+        <section class="projects-gallery section">
+            <div class="container">
+                <div class="projects__grid"> <!-- используем ту же сетку, что на главной -->
+                    <article class="project-card" data-category="residential">
+                        <a href="project-detail.html?id=proj-001">
+                            <img src="images/project1-thumb.png" alt="ЖК Солнечный" loading="lazy">
+                            <h3>ЖК «Солнечный»</h3>
+                            <p>Жилое строительство, 2024</p>
+                        </a>
+                    </article>
+                    <article class="project-card" data-category="reconstruction">
+                        <a href="project-detail.html?id=proj-002">
+                            <img src="images/project2-thumb.png" alt="Реконструкция склада" loading="lazy">
+                            <h3>Реконструкция склада</h3>
+                            <p>Реконструкция, 2023</p>
+                        </a>
+                    </article>
+                    <article class="project-card" data-category="repair">
+                        <a href="project-detail.html?id=proj-003">
+                            <img src="images/project3-thumb.png" alt="Ремонт шоурума" loading="lazy">
+                            <h3>Ремонт шоурума</h3>
+                            <p>Ремонт, 2025</p>
+                        </a>
+                    </article>
+                    <article class="project-card" data-category="residential">
+                        <a href="project-detail.html?id=proj-004">
+                            <img src="images/project4-thumb.png" alt="Коттеджный поселок" loading="lazy">
+                            <h3>Коттеджный посёлок «Берёзка»</h3>
+                            <p>Жилое строительство, 2024</p>
+                        </a>
+                    </article>
+                    <article class="project-card" data-category="commercial">
+                        <a href="project-detail.html?id=proj-005">
+                            <img src="images/project5-thumb.png" alt="Торговый центр" loading="lazy">
+                            <h3>Торговый центр «Ритм»</h3>
+                            <p>Коммерческое строительство, 2023</p>
+                        </a>
+                    </article>
+                    <article class="project-card" data-category="reconstruction">
+                        <a href="project-detail.html?id=proj-006">
+                            <img src="images/project6-thumb.png" alt="Реставрация фасада" loading="lazy">
+                            <h3>Реставрация фасада</h3>
+                            <p>Реконструкция, 2022</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">...</footer> <!-- полный футер как в index -->
+</body>
+</html>

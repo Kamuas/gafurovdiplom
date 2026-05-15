@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СтройКом - строительство жилых и коммерческих объектов под ключ</title>
+    <meta name="description" content="Строительная компания СтройКом: строительство под ключ, реконструкция, ремонт, дизайн. Более 10 лет опыта. Получите смету онлайн.">
+    <link rel="stylesheet" href="css/style.css">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stroykom.ru/">
+    <meta property="og:title" content="СтройКом - строительная компания">
+    <meta property="og:description" content="Строительство жилых и коммерческих объектов под ключ.">
+    <meta property="og:image" content="https://stroykom.ru/images/og-image.jpg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "СтройКом",
+        "image": "https://stroykom.ru/images/logo.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ул. Строителей, д. 1",
+            "addressLocality": "Москва",
+            "postalCode": "123456",
+            "addressCountry": "RU"
+        },
+        "telephone": "+74951234567",
+        "email": "info@stroykom.ru",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ],
+        "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="СтройКом" width="150" height="40">
+            </a>
+            <input type="checkbox" id="burger-toggle" class="burger-toggle">
+            <label for="burger-toggle" class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+74951234567" class="header__phone">+7 (495) 123-45-67</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Строим дома и коммерческие объекты под ключ</h1>
+                <p class="hero__subtitle">Индивидуальное проектирование, качественные материалы, гарантия 5 лет</p>
+                <a href="contact.html#estimate-form" class="btn btn--primary">Получить смету</a>
+            </div>
+        </section>
+
+        <section class="services section">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <img src="images/icon-build.png" alt="" class="service-card__icon" width="48" height="48">
+                        <h3 class="service-card__title">Строительство под ключ</h3>
+                        <p class="service-card__desc">Возведение жилых и коммерческих зданий с нуля</p>
+                        <a href="services.html#build" class="service-card__link">Подробнее</a>
+                    </article>
+                    <article class="service-card">
+                        <img src="images/icon-reconstruct.png" alt="" class="service-card__icon" width="48" height="48">
+                        <h3 class="service-card__title">Реконструкция</h3>
+                        <p class="service-card__desc">Обновление и перепланировка существующих объектов</p>
+                        <a href="services.html#reconstruct" class="service-card__link">Подробнее</a>
+                    </article>
+                    <article class="service-card">
+                        <img src="images/icon-remont.png" alt="" class="service-card__icon" width="48" height="48">
+                        <h3 class="service-card__title">Ремонт и отделка</h3>
+                        <p class="service-card__desc">Капитальный и косметический ремонт помещений</p>
+                        <a href="services.html#remont" class="service-card__link">Подробнее</a>
+                    </article>
+                    <article class="service-card">
+                        <img src="images/icon-design.png" alt="" class="service-card__icon" width="48" height="48">
+                        <h3 class="service-card__title">Проектирование</h3>
+                        <p class="service-card__desc">Индивидуальные архитектурные и дизайн-проекты</p>
+                        <a href="services.html#design" class="service-card__link">Подробнее</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section">
+            <div class="container">
+                <h2 class="section-title">Наши проекты</h2>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <a href="project-detail.html?id=proj-001" class="project-card__link">
+                            <img src="images/project1-thumb.png" alt="Жилой комплекс Солнечный" loading="lazy" width="300" height="200">
+                            <h3 class="project-card__title">ЖК «Солнечный»</h3>
+                            <p class="project-card__type">Жилое строительство</p>
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <a href="project-detail.html?id=proj-002" class="project-card__link">
+                            <img src="images/project2-thumb.png" alt="Реконструкция склада под офисы" loading="lazy" width="300" height="200">
+                            <h3 class="project-card__title">Реконструкция склада</h3>
+                            <p class="project-card__type">Реконструкция</p>
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <a href="project-detail.html?id=proj-003" class="project-card__link">
+                            <img src="images/project3-thumb.png" alt="Капитальный ремонт шоурума" loading="lazy" width="300" height="200">
+                            <h3 class="project-card__title">Ремонт шоурума</h3>
+                            <p class="project-card__type">Ремонт</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="projects__more">
+                    <a href="projects.html" class="btn btn--secondary">Все проекты</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages section">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <ul class="advantages__list">
+                    <li class="advantages__item"><strong>10+ лет</strong> на рынке строительства</li>
+                    <li class="advantages__item"><strong>100+</strong> реализованных объектов</li>
+                    <li class="advantages__item"><strong>Гарантия 5 лет</strong> на все работы</li>
+                    <li class="advantages__item"><strong>Собственное</strong> проектное бюро</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="testimonials section">
+            <div class="container">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <div class="testimonials__carousel">
+                    <div class="testimonials__track">
+                        <article class="testimonial-card">
+                            <img src="images/client1.png" alt="Фото клиента" class="testimonial-card__image" width="80" height="80">
+                            <blockquote>
+                                <p>Отличная работа! Построили офисный центр точно в срок, качество на высоте.</p>
+                                <cite>Иван Петров, директор ООО «СтройИнвест»</cite>
+                            </blockquote>
+                        </article>
+                        <article class="testimonial-card">
+                            <img src="images/client2.png" alt="Фото клиента" class="testimonial-card__image" width="80" height="80">
+                            <blockquote>
+                                <p>Заказывали дизайн-проект квартиры. Всё продумали до мелочей, спасибо!</p>
+                                <cite>Елена Смирнова</cite>
+                            </blockquote>
+                        </article>
+                        <article class="testimonial-card">
+                            <img src="images/client3.png" alt="Фото клиента" class="testimonial-card__image" width="80" height="80">
+                            <blockquote>
+                                <p>Реконструировали склад под офис. Получилось современно и функционально.</p>
+                                <cite>Алексей Кузнецов</cite>
+                            </blockquote>
+                        </article>
+                    </div>
+                    <div class="testimonials__nav">
+                        <a href="#testimonial-1" class="testimonials__dot" aria-label="Отзыв 1"></a>
+                        <a href="#testimonial-2" class="testimonials__dot" aria-label="Отзыв 2"></a>
+                        <a href="#testimonial-3" class="testimonials__dot" aria-label="Отзыв 3"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <div class="contact-section__grid">
+                    <div class="contact-info">
+                        <p>Адрес: г. Москва, ул. Строителей, д. 1</p>
+                        <p>Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                        <p>Email: <a href="mailto:info@stroykom.ru">info@stroykom.ru</a></p>
+                    </div>
+                    <form class="form" action="#" method="POST" netlify>
+                        <input type="hidden" name="form-name" value="quick-estimate">
+                        <div class="form__group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" required pattern="[0-9+\-\s]+" title="Введите телефон в формате +7 XXX XXX-XX-XX">
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Краткое описание задачи</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <div class="form__group form__group--checkbox">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">Я согласен на обработку персональных данных</label>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt="СтройКом" width="120"></a>
+                <p>&copy; 2025 СтройКом. Все права защищены.</p>
+            </div>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="privacy.html">Политика конфиденциальности</a></li>
+                    <li><a href="sitemap.xml">Карта сайта</a></li>
+                </ul>
+            </nav>
+            <div class="footer__social">
+                <a href="#" aria-label="ВКонтакте"><img src="images/vk.png" alt="VK"></a>
+                <a href="#" aria-label="Telegram"><img src="images/tg.png" alt="Telegram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
